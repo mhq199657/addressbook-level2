@@ -14,4 +14,9 @@ public class Block {
     public String getBlock() {
         return block;
     }
+
+    @Override
+    public String toString() {
+        return block;
+    }
 }

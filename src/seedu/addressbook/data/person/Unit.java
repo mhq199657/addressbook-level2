@@ -17,4 +17,9 @@ public class Unit {
     public String getUnit() {
         return unit;
     }
+
+    @Override
+    public String toString() {
+        return unit;
+    }
 }

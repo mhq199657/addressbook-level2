@@ -14,4 +14,9 @@ public class PostalCode {
     public String getPostalCode() {
         return postalCode;
     }
+
+    @Override
+    public String toString() {
+        return postalCode;
+    }
 }
