@@ -127,7 +127,7 @@ public class UniquePersonList implements Iterable<Person> {
      */
 
     public void sort() {
-        internalList.sort(Person.NameComparator);
+        internalList.sort(Person.NAMECOMPARATOR);
     }
 
     /**
