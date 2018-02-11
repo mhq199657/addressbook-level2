@@ -85,6 +85,7 @@ public class Person implements ReadOnlyPerson {
         return getAsTextShowAll();
     }
 
+    //A comparator that sorts the name in alphabetical order, ignoring cases
     public static final Comparator NameComparator = new Comparator<Person>(){
         public int compare(Person first, Person second){
             return first.getName().fullName.compareToIgnoreCase(second.getName().fullName);
