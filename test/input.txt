@@ -141,6 +141,21 @@
   list
 
 ##########################################################
+# test sort command
+##########################################################
+
+# last active view: [1] betsy [2] dickson
+  
+  # add charlie back to mess up the order
+  add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+  # should give an out of order list
+  list
+  # sorts the out of order list
+  sort
+  # should give an ordered list
+  list
+  
+##########################################################
 # test clear command
 ##########################################################
 
