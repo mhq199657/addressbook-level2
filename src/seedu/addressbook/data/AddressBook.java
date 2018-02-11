@@ -100,6 +100,13 @@ public class AddressBook {
     }
 
     /**
+     * Sorts all persons in the address book.
+     */
+    public void sortPersons() {
+        allPersons.sort();
+    }
+
+    /**
      * Clears all persons and tags from the address book.
      */
     public void clear() {

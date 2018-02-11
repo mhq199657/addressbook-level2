@@ -123,6 +123,14 @@ public class UniquePersonList implements Iterable<Person> {
     }
 
     /**
+     * Sorts all persons in alphabetical order
+     */
+
+    public void sort() {
+        internalList.sort(Person.NameComparator);
+    }
+
+    /**
      * Clears all persons in list.
      */
     public void clear() {
